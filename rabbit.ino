@@ -1,9 +1,3 @@
-/*
-  Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
- 
-  This example code is in the public domain.
- */
 
 //blinker inputs
 int leftBlinkIn = 9;
@@ -26,7 +20,6 @@ int error_light = 3;
 int keypad = A0;
 
 //power password
-int pass[10] = {7, 6, 6, 5, 3, 9, 3, 3, 8, 1};
 
 int passIndex = 0;
 int keyPressed = 0;
